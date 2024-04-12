@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #757575;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.about-section {
+    margin-bottom: 40px;
+}
+
+.about-section h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    color: #ffffff;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-member {
+    flex-basis: calc(33.333% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+
+.team-member:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.team-member h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #0011ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+}
+
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: hsl(244, 100%, 46%);
+    color: hwb(0 100% 0%);
+    margin-bottom: 0%;
+}
+
+footer p {
+    margin: 0;
+}
+
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a Empresa de Esportes</title>
+</head>
+<body>
+    <header>
+        <h1>Sobre a Empresa de Esportes</h1>
+    </header>
+    <div class="container">
+        <div class="about-section">
+            <h2>Nossa História</h2>
+            <p>A Empresa de Esportes foi fundada em 2005 com o objetivo de promover um estilo de vida saudável através da prática de esportes. Desde então, nos dedicamos a fornecer produtos de alta qualidade e serviços excepcionais para atletas de todos os níveis.</p>
+        </div>
+        <div class="about-section">
+            <h2>Nossa Equipe</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <h3>João Silva</h3>
+                    <p>CEO</p>
+                </div>
+                <div class="team-member">
+                    <h3>Maria Santos</h3>
+                    <p>Designer</p>
+                </div>
+                <div class="team-member">
+                    <h3>Carlos Oliveira</h3>
+                    <p>Desenvolvedor</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p>Para acessar a página de login, <a href="login.php">clique aqui</a>.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Empresa de Esportes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
